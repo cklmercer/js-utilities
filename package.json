@@ -4,6 +4,8 @@
   "description": "websocket micro-framework",
   "main": "src/index.js",
   "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watchAll"
@@ -20,5 +22,9 @@
   "homepage": "https://github.com/unaffected/io#readme",
   "devDependencies": {
     "jest": "^23.4.1"
+  },
+  "dependencies": {
+    "eslint": "^5.1.0",
+    "eslint-plugin-jest": "^21.17.0"
   }
 }

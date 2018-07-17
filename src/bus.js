@@ -14,7 +14,6 @@ module.exports = () => {
     subscriptions
       .filter(subscription => (subscription.type === type))
       .forEach(subscription => {
-        console.log('triggered');
         subscription.handler(data);
 
         if (subscription.once) {

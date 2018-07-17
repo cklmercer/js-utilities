@@ -40,7 +40,7 @@ module.exports = (socket, bus) => {
     ];
 
     return map[socket.readyState];
-  }
+  };
 
   try {
     socket.addEventListener('message', receive);
