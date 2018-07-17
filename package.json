@@ -1,0 +1,22 @@
+{
+  "name": "unaffected.io",
+  "version": "1.0.0",
+  "description": "websocket micro-framework",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unaffected/io.git"
+  },
+  "author": "Cody Mercer <me@codymercer.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/unaffected/io/issues"
+  },
+  "homepage": "https://github.com/unaffected/io#readme",
+  "devDependencies": {
+    "jest": "^23.4.1"
+  }
+}
