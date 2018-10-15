@@ -21,10 +21,9 @@
   },
   "homepage": "https://github.com/unaffected/io#readme",
   "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-plugin-jest": "^21.25.0",
     "jest": "^23.4.1"
   },
-  "dependencies": {
-    "eslint": "^5.1.0",
-    "eslint-plugin-jest": "^21.17.0"
-  }
+  "dependencies": {}
 }
